@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Árvore Binária de Busca</title>
+</head>
+<body>
+    <h1>Árvore Binária de Busca (BST)</h1>
+
+    <input type="number" id="valor" placeholder="Digite um valor">
+    <button onclick="inserir()">Inserir</button>
+    <button onclick="buscar()">Buscar</button>
+    <br><br>
+
+    <button onclick="mostrarLargura()">Busca em Largura</button>
+    <button onclick="mostrarPreOrdem()">Pré-Ordem</button>
+    <button onclick="mostrarEmOrdem()">Em-Ordem</button>
+    <button onclick="mostrarPosOrdem()">Pós-Ordem</button>
+    <br><br>
+
+    <button onclick="mostrarAltura()">Altura</button>
+    <button onclick="mostrarTamanho()">Tamanho</button>
+    <br><br>
+
+    <input type="number" id="valorExtra" placeholder="Valor para ancestral/descendente">
+    <button onclick="mostrarAncestrais()">Ancestrais</button>
+    <button onclick="mostrarDescendentes()">Descendentes</button>
+    <button onclick="mostrarNivel()">Nível</button>
+    <br><br>
+
+    <button onclick="verificarEstrita()">Estritamente Binária?</button>
+    <button onclick="verificarCheia()">Árvore Cheia?</button>
+
+    <h2>Resultado:</h2>
+    <pre id="resultado"></pre>
+
+    <script src="index.js"></script>
+</body>
+</html>
